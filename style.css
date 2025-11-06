@@ -7,3 +7,10 @@ img {
     box-shadow: 0 4px 8px rgba(44, 84, 55, 0.1);
     transition: transform 0.3s;
 }
+.navbar {
+    background-color: #2c5437;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
