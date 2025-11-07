@@ -2,10 +2,7 @@
   display: flex;             /* Centers content horizontally */
   justify-content: center;   /* Center horizontally */
   align-items: center;       /* Center vertically */
-  height: 300px;             /* Adjust as needed */
-}
-
-.profile-pic {
+  height: 50px;             /* Adjust as needed */
   width: 150px;              /* Set size */
   height: 150px;             /* Make it square */
   border-radius: 50%;        /* Makes it circular */
