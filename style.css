@@ -1,5 +1,12 @@
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 .image-container {
-  .image-section {
+    max-width: 100%;
+    height: auto;
+  }
+.img-container {
   position: relative;
   align-items: center;
   color: rgb(221, 93, 178);
