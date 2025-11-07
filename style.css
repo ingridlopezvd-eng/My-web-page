@@ -2,6 +2,10 @@ body{
     background-color: #decce1;
     font-family: Meie Script, cursive;
   }
+  h1{
+    color: rgb(7, 1, 24);
+    text-align: center;
+  }
 .img-fluid{
     max-width: 300%;
     height: auto;
@@ -18,13 +22,6 @@ body{
     max-width: 300px;
     margin: 20px auto;
 
-}
-.h1{
-    text-align: center;
-    color: #000000;
-    font-size: 3.5rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 .accordion-flush{
     background-color: #f7c1f2;
