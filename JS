@@ -1,16 +1,18 @@
-// Select the header and content
-const accordionHeader = document.querySelector('.accordion-header');
-const accordionContent = document.querySelector('.accordion-content');
-
-// Add click event
-accordionHeader.addEventListener('click', () => {
-  // Toggle active/open state
-  accordionContent.classList.toggle('open');
-
-  // If open, expand the section
-  if (accordionContent.classList.contains('open')) {
-    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
-  } else {
-    accordionContent.style.maxHeight = null;
-  }
-});
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    crossorigin="anonymous">
+  </script>
+</body>
+</html>
+            Bio 
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" 
+            aria-labelledby="flush-headingThree" 
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+            Contact content goes here.
+            </div>
+        </div>
+        </div>
+    </div>
