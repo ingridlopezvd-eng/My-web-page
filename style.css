@@ -30,3 +30,13 @@ body{
     margin: 20px auto;
     max-width: 600px;
 }
+.accordion-button::after {
+      content: '+';               
+      font-size: 1.5rem;
+      color: #007bff;
+      transform: none !important; 
+    }
+    .accordion-button:not(.collapsed)::after {
+      content: '–';
+      color: #007bff;
+    }

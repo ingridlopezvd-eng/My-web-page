@@ -1,0 +1,16 @@
+// Select the header and content
+const accordionHeader = document.querySelector('.accordion-header');
+const accordionContent = document.querySelector('.accordion-content');
+
+// Add click event
+accordionHeader.addEventListener('click', () => {
+  // Toggle active/open state
+  accordionContent.classList.toggle('open');
+
+  // If open, expand the section
+  if (accordionContent.classList.contains('open')) {
+    accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+  } else {
+    accordionContent.style.maxHeight = null;
+  }
+});
