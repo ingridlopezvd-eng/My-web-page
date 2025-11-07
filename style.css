@@ -30,3 +30,12 @@ body{
     margin: 20px auto;
     max-width: 600px;
     }
+.myinfoAccordion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: #000000;
+    background-color: #fde4fa;
+}
+flush-headingOne, .flush-headingTwo, .flush-headingThree{
+    background-color: #f7c1f2;
+}
