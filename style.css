@@ -2,7 +2,7 @@
     background-color: #e182ee;
   }
 .img-fluid{
-    max-width: 100%;
+    max-width: 300%;
     height: auto;
   }
 .img-container {
@@ -14,4 +14,11 @@
     margin: 20px auto;
     max-width: 300px;
 
+}
+.accordion-flush{
+    background-color: #f7c1f2;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
 }
