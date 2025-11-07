@@ -1,12 +1,11 @@
 .image-container {
-  display: flex;             /* Centers content horizontally */
-  justify-content: center;   /* Center horizontally */
-  align-items: center;       /* Center vertically */
-  height: 50px;             /* Adjust as needed */
-  width: 150px;              /* Set size */
-  height: 150px;             /* Make it square */
-  border-radius: 50%;        /* Makes it circular */
-  object-fit: cover;         /* Keeps image proportional */
-  border: 3px solid #8163ec;    /* Optional: adds white border */
-  box-shadow: 0 0 10px rgba(228, 103, 209, 0.2); /* Optional: shadow */
+  .image-section {
+  position: relative;
+  text-align: center;
+  color: white;
 }
+
+.image-container {
+  width: 100%;
+  height: auto;
+  display: block;
