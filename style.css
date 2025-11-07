@@ -19,6 +19,13 @@ body{
     margin: 20px auto;
 
 }
+.h1{
+    text-align: center;
+    color: #000000;
+    font-size: 3.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .accordion-flush{
     background-color: #f7c1f2;
     border: 1px solid #000000;
