@@ -11,8 +11,11 @@ body{
   align-items: center;
   color: rgb(221, 93, 178);
   border: 5px solid #000000;
-  border-radius: 10px;
-    max-width: 100px;
+  border-top: 10px solid #000000;
+   border-radius-right: 10px;
+   border-bottom: 10px solid #000000;
+   border-radius-left: 10px;
+    max-width: 300px;
     margin: 20px auto;
 
 }
