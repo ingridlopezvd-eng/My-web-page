@@ -11,7 +11,15 @@
             aria-labelledby="flush-headingThree" 
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-            Contact content goes here.
+           Ingrid Lopez was born in Honduras. She was raised in a small town in southern Honduras by her grandmother, Maria Lopez, and her aunt, Guadalupe Amaya, alongside her sister, Yenifer Torres. She attended Escuela Republica de Argentina, where with her dedication earned her a scholarship in third grade. This opportunity sparked her dream of attending a university in the future.
+
+In 2016, when she was in the 8th grade, Ingrid’s life took a major turn. At just 13 years old, Ingrid moved to the USA. She was nervous about the unknown challenges ahead, but she courageously began her journey. When she arrived in San Francisco, Ingrid was determined to continue her education. However, she did not know English, as she grew up speaking Spanish and did not have access to English classes in Honduras. Despite this challenge, she enrolled at Mission High School and worked hard to learn the language. She later attended San Francisco State University, where she earned her Bachelor’s Degree in Criminal Justice Studies with a minor in Juvenile Justice.
+
+While pursuing her degree, Ingrid worked part-time at Instituto Familiar de la Raza. In her final year of university, she also completed a fellowship with College Corps, serving as a tutor for the JCYC program at James Denman Middle School. On weekends, she remained active in her church community. Throughout the years, Ingrid has been involved in the San Francisco community and has participated in leadership workshops provided by the San Francisco Department of Public Health.
+
+Ingrid enjoys staying active and productive. She runs around Lake Merced 3–5 times a week, listens to music, plays soccer, and enjoys socializing. She considers herself successful because she has overcome challenges she once thought were impossible—like graduating from a university—despite financial and language barriers. Her accomplishments are a source of pride for both herself and her family.
+
+Ingrid is now pursuing a career in the justice system to serve her community in San Francisco. She is especially interested in working within the justice system because she believes in second chances and the power of guidance and rehabilitation. She values accountability, fairness, and community safety—principles that align with the mission of the department. Ingrid is passionate, hardworking, and eager to continue learning. She brings strong communication skills, leadership experience, public speaking ability, critical thinking, and time management to everything she does. She is ready to be a positive influence and create change in her community.
             </div>
         </div>
         </div>
