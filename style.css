@@ -19,10 +19,9 @@ body{
    border-bottom: 10px solid #000000;
     max-width: 300px;
     margin: 20px auto;
-
 }
-.accordion-flush{
-    background-color: #f7c1f2;
+.accordion-flush {
+    background-color: #edb7e8;
     border: 1px solid #000000;
     border-radius: 10px;
     margin: 20px auto;
