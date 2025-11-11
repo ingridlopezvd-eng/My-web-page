@@ -17,63 +17,86 @@
   </div>
         <h1>Welcome to My Web Page</h1>
       <div class="accordion accordion-flush" id="myinfoAccordion">
-       <div class="accordion-item">
-        <script src="javascript.js"></script>
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-        Bio
-      </button>
-    </h2>
-     <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
+       < <div class="accordion-item">
+      <h2 class="accordion-header" id="headingBio">
         <button class="accordion-button collapsed" type="button" 
                 data-bs-toggle="collapse" 
-                data-bs-target="#flush-collapseOne" 
+                data-bs-target="#collapseBio" 
                 aria-expanded="false" 
-                aria-controls="flush-collapseOne">
-                <div class="accordion-body">Ingrid Lopez was born in Honduras. She was raised in a small town in southern Honduras by her grandmother, Maria Lopez, and her aunt, Guadalupe Amaya, alongside her sister, Yenifer Torres. She attended Escuela Republica de Argentina, where with her dedication earned her a scholarship in third grade. This opportunity sparked her dream of attending a university in the future.
+                aria-controls="collapseBio">
+          Bio
+        </button>
+      </h2>
+
+      <div id="collapseBio" class="accordion-collapse collapse" 
+           aria-labelledby="headingBio" 
+           data-bs-parent="#myinfoAccordion">
+
+        <div class="accordion-body">Ingrid Lopez was born in Honduras. She was raised in a small town in southern Honduras by her grandmother, Maria Lopez, and her aunt, Guadalupe Amaya, alongside her sister, Yenifer Torres. She attended Escuela Republica de Argentina, where with her dedication earned her a scholarship in third grade. This opportunity sparked her dream of attending a university in the future.
 She enrolled at Mission High School and worked hard to learn English. She later attended San Francisco State University, where she earned her Bachelor’s Degree in Criminal Justice Studies with a minor in Juvenile Justice.
 
 While pursuing her degree, Ingrid worked part-time at Instituto Familiar de la Raza. In her final year of university, she also completed a fellowship with College Corps, serving as a tutor for the JCYC program at James Denman Middle School. On weekends, she remained active in her church community. Throughout the years, Ingrid has been involved in the San Francisco community and has participated in leadership workshops provided by the San Francisco Department of Public Health.
 
 Ingrid enjoys staying active and productive. She runs around Lake Merced 3–5 times a week, listens to music, plays soccer, and enjoys socializing. She considers herself successful because she has overcome challenges she once thought were impossible—like graduating from a university—despite financial and language barriers. Her accomplishments are a source of pride for both herself and her family.
 
-Ingrid is now pursuing a career in the justice system to serve her community in San Francisco. She is especially interested in working within the justice system because she believes in second chances and the power of guidance and rehabilitation. She values accountability, fairness, and community safety—principles that align with the mission of the department. Ingrid is passionate, hardworking, and eager to continue learning. She brings strong communication skills, leadership experience, public speaking ability, critical thinking, and time management to everything she does. She is ready to be a positive influence and create change in her community.</div>
-          
+Ingrid is now pursuing a career in the justice system to serve her community in San Francisco. She is especially interested in working within the justice system because she believes in second chances and the power of guidance and rehabilitation. She values accountability, fairness, and community safety—principles that align with the mission of the department. Ingrid is passionate, hardworking, and eager to continue learning. She brings strong communication skills, leadership experience, public speaking ability, critical thinking, and time management to everything she does. She is ready to be a positive influence and create change in her community.
+     </div>
 
+      </div>
+    </div>     
+   <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSkills">
+        <button class="accordion-button collapsed" type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#collapseSkills" 
+                aria-expanded="false" 
+                aria-controls="collapseSkills">
+          Skills
         </button>
       </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" 
-           aria-labelledby="flush-headingTwo" 
-           data-bs-parent="#accordionFlushExample">
+
+      <div id="collapseSkills" class="accordion-collapse collapse" 
+           aria-labelledby="headingSkills" 
+           data-bs-parent="#myinfoAccordion">
+
         <div class="accordion-body">
           Skills content goes here.
         </div>
+
       </div>
     </div>
-      <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
+<div class="accordion-item">
+      <h2 class="accordion-header" id="headingContact">
         <button class="accordion-button collapsed" type="button" 
                 data-bs-toggle="collapse" 
-                data-bs-target="#flush-collapseThree" 
+                data-bs-target="#collapseContact" 
                 aria-expanded="false" 
-                aria-controls="flush-collapseThree">
+                aria-controls="collapseContact">
           Contact Me
         </button>
       </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" 
-           aria-labelledby="flush-headingThree" 
-           data-bs-parent="#accordionFlushExample">
+
+      <div id="collapseContact" class="accordion-collapse collapse" 
+           aria-labelledby="headingContact" 
+           data-bs-parent="#myinfoAccordion">
+
         <div class="accordion-body">
           Contact Me content goes here.
         </div>
+
       </div>
     </div>
 
   </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-5 mb-4">
+    <p>My Web Page, Cohort #33</p>
+  </footer>
+
+  <!-- Bootstrap JS + Your JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="javascript.js"></script>
+
 </body>
 </html>
-
-    <footer>
-      <p> My Web Page, Co-hort #33</p>
-    </footer>
