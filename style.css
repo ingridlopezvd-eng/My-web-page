@@ -1,35 +1,106 @@
-body{
-    background-color: #decce1;
-    font-family: Meie Script, cursive;
-  }
-  h1{
-    color: rgb(7, 1, 24);
-    text-align: center;
-  }
-.img-fluid{
-    max-width: 300%;
-    height: auto;
-  }
+:root {
+  /* change the max-width as appropriate for your desired layout on larger screens */
+  /* if you have a lot of content, you may want to increase this value */
+  /* 768px: small tablet */
+  /* 1024px: large tablet */
+  /* 1280px: desktop */
+  /* 1440px: large desktop */
+  --max-width: 1024px;
+  /* set a responsive width less than 100% to add a border to the container */
+  /* 90% sets a left and right margin of 5% */
+  --container-width: 90%;
+  --body-bg-color: hsl(291, 26%, 84%);
+  --body-color: hsl(210, 11%, 15%);
+  --main-bg-color: hsl(210, 17%, 98%);
+  --main-color: hsl(210, 11%, 15%);
+  --footer-bg-color: hsl(291, 26%, 60%);
+  --footer-color: hsl(210, 11%, 95%);
+}
+body {
+  background-color: var(--body-bg-color);
+  color: var(--body-color);
+  font:
+    16px "Meie Script",
+    cursive;
+}
+h1 {
+  color: rgb(7, 1, 24);
+  text-align: center;
+}
+.my-container {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  /* this gives a margin-left and margin-right of 5% */
+  width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  /*
+  defining the container type sets the value of cqw and cqh,
+  which are used in the clamp function
+  */
+  container-type: inline-size;
+  /* 
+    use the font-size calculator web site:
+      https://www.marcbacon.com/tools/clamp-calculator/
+    these are the chosen design parameters used in the web form:
+      at width 500, font-size: 0.9rem;
+      at width 1024, font-size: 1.2rem;
+    and the clamp function is generated
+    replace "vw" with "cqw" to use the container width
+
+    to customize, change values entered into the web form
+    */
+  font-size: clamp(0.9rem, 0.614rem + 0.916cqw, 1.2rem);
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+  /* margin: 1em; */
+}
 .img-container {
   position: relative;
   align-items: center;
-  color: rgb(221, 93, 178);
+  background-color: rgb(221, 93, 178);
+  padding: 1rem;
   border: 5px solid #000000;
   border-top: 10px solid #000000;
-   border-bottom: 10px solid #000000;
-    max-width: 300px;
-    margin: 20px auto;
+  border-bottom: 10px solid #000000;
+  width: 80%;
+  margin: 20px auto;
 }
 .accordion-flush {
-    background-color: #edb7e8;
-    border: 1px solid #000000;
-    border-radius: 10px;
-    margin: 20px auto;
-    max-width: 600px;
-    }
-.myinfoAccordion{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    color: #000000;
-    background-color: #fde4fa;
+  background-color: #edb7e8;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: 80%;
+}
+.myinfoAccordion {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #fde4fa;
+}
+.my-footer {
+  /*
+  the <footer> element is display: block by default, units of
+  vw and cqw are the same since width is 100%
+  */
+  /* use same clamp function as the other containers */
+  font-size: clamp(0.9rem, 0.614rem + 0.916vw, 1.2rem);
+  padding: 2em 0;
+  background-color: var(--footer-bg-color);
+  color: var(--footer-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* if there are several items in the footer, use a <ul> element */
+  p {
+    margin: 0;
+  }
 }
