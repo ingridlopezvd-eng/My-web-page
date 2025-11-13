@@ -88,6 +88,10 @@ h1 {
   background-color: #f0b7e4;   
   color: #000;
 }
+#headingBio .accordion-button:not(.collapsed) {
+  background-color: #f6b3b5;   /* darker blue when opened */
+  color: #000;
+}
 .my-footer {
   /*
   the <footer> element is display: block by default, units of
