@@ -84,11 +84,9 @@ h1 {
   color: #000000;
   background-color: #eca3e3;
 }
-h1.accordion-button {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5rem;
-  color: #000000;
-  background-color: #e1a4e1;
+#headingBio .accordion-button {
+  background-color: #f0b7e4;   
+  color: #000;
 }
 .my-footer {
   /*
