@@ -127,3 +127,8 @@ h1 {
     margin: 0;
   }
 }
+.row row-cols-1 row-cols-md-3 g-4"{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
